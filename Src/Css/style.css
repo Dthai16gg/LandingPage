@@ -684,3 +684,10 @@ img {
   background: #a50000;
   padding: 20px;
 }
+#navbar {
+  z-index: 20000;
+  background-color: #ec7f7f;
+}
+img:hover {
+  scale: 1.05;
+}
