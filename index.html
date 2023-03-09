@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://img.icons8.com/clouds/256/melanie-martinez.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e56307bebd.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="./Src/Css/style.css" />
+    <script src="./Src/Js/index.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-sm  fixed-top " id="navbar">
+        <div class="container-fluid" id="navbar">
+          <a class="navbar-brand text-white" href="#">Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Buy Now</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle text-white"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Trending
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">Most User</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">New Product</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Grid Product</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search Now"
+                aria-label="Search"
+              />
+              <button class="btn me-2" type="submit">
+                <i class="fa-solid text-white fa-bell"></i>
+              </button>
+              <button class="btn me-2" type="submit">
+                <i class="fa-solid text-white fa-cart-shopping"></i>
+              </button>
+              <button class="btn" type="submit">
+                <i class="fa-solid text-white fa-user"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+      <!-- main -->
+      <div class="container-fluid mt-5">
+        <marquee class="mt-4"
+          >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Perspiciatis, modi voluptate fugiat sint magnam ad blanditiis
+          similique. Sapiente perferendis officiis quisquam. Impedit similique
+          ab sit facilis recusandae magni placeat numquam?
+        </marquee>
+
+        <div class="row">
+          <div class="col-6">
+            <div id="title" class="slide header">
+              <h1 class="text-center">Mela For Us</h1>
+              <p class="text-center text-white">
+                Lorem ipsum dolor sit amet consectetur, adipisicing
+              </p>
+            </div>
+            <div class="buy_now text-center mt-lg-5">
+              <button data-text="Awesome" class="button">
+                <span class="actual-text"
+                  >&nbsp;Buy&nbsp;&nbsp;now !&nbsp;&nbsp;</span
+                >
+                <span class="hover-text" aria-hidden="true"
+                  >&nbsp;buy&nbsp;&nbsp;now ! &nbsp;&nbsp;</span
+                >
+              </button>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="product-card">
+              <div class="tag">
+                <div class="corner">new</div>
+              </div>
+              <div class="product-image">
+                <img
+                  class="mx-5"
+                  src="./Src/Image/image1.png"
+                  alt=""
+                  width="350px"
+                />
+              </div>
+              <div class="inner">
+                <h2 class="title">TK-421 <span>Armor</span></h2>
+                <p>Uniform worn by the Imperial Army of the Galactic Empire</p>
+                <dl>
+                  <dt>Product Highlights</dt>
+                  <dd>Smells like a trash compactor</dd>
+                  <dd>hard to see anything</dd>
+                </dl>
+              </div>
+              <ul class="actions clear">
+                <li>
+                  <a>product details</a>
+                </li>
+                <li>
+                  <a>add to quote cart</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- end header -->
+        <h2 class="text-white text-center" id="h2">Slide Mela</h2>
+        <hr />
+        <section class="pt-5 pb-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <h3 class="mb-3">Carousel cards title</h3>
+              </div>
+              <div class="col-6 text-right">
+                <a
+                  class="btn btn-primary mb-3 mr-1"
+                  href="#carouselExampleIndicators2"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <i class="fa fa-arrow-left"></i>
+                </a>
+                <a
+                  class="btn btn-primary mb-3"
+                  href="#carouselExampleIndicators2"
+                  role="button"
+                  data-slide="next"
+                >
+                  <i class="fa fa-arrow-right"></i>
+                </a>
+              </div>
+              <div class="col-12">
+                <div
+                  id="carouselExampleIndicators2"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row">
+                        <div class="col-md-4 mb-3">
+                          <div class="container">
+                            <div class="card">
+                              <div class="imgBx">
+                                <img
+                                  src="https://assets.codepen.io/4164355/shoes.png"
+                                />
+                              </div>
+                              <div class="contentBx">
+                                <h2>Nike Shoes</h2>
+                                <div class="size">
+                                  <h3>Size :</h3>
+                                  <span>7</span>
+                                  <span>8</span>
+                                  <span>9</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="color">
+                                  <h3>Color :</h3>
+                                  <span></span>
+                                  <span></span>
+                                  <span></span>
+                                </div>
+                                <a href="#">Buy Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <div class="container">
+                            <div class="card">
+                              <div class="imgBx">
+                                <img
+                                  src="https://assets.codepen.io/4164355/shoes.png"
+                                />
+                              </div>
+                              <div class="contentBx">
+                                <h2>Nike Shoes</h2>
+                                <div class="size">
+                                  <h3>Size :</h3>
+                                  <span>7</span>
+                                  <span>8</span>
+                                  <span>9</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="color">
+                                  <h3>Color :</h3>
+                                  <span></span>
+                                  <span></span>
+                                  <span></span>
+                                </div>
+                                <a href="#">Buy Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <div class="container">
+                            <div class="card">
+                              <div class="imgBx">
+                                <img
+                                  src="https://assets.codepen.io/4164355/shoes.png"
+                                />
+                              </div>
+                              <div class="contentBx">
+                                <h2>Nike Shoes</h2>
+                                <div class="size">
+                                  <h3>Size :</h3>
+                                  <span>7</span>
+                                  <span>8</span>
+                                  <span>9</span>
+                                  <span>10</span>
+                                </div>
+                                <div class="color">
+                                  <h3>Color :</h3>
+                                  <span></span>
+                                  <span></span>
+                                  <span></span>
+                                </div>
+                                <a href="#">Buy Now</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- slide card -->
+        <h2 class="text-white text-center mt-5">Best Deal</h2>
+        <hr />
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="./Src/Image/image2-removebg-preview.png" alt="" />
+            </div>
+            <div class="col-6">
+              <p class="text-center" id="title_tin">
+                <span style="color: white"> Quickly &</span
+                ><span> Effectively</span>
+              </p>
+              <p
+                class="text-center"
+                style="
+                  font-style: normal;
+                  font-weight: 400;
+                  line-height: 30px;
+                  color: #ffffff;
+                  float: left;
+                "
+              >
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor. Aenean massa. Cum sociis natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus
+                mus. Donec quam felis, ultricies nec, pellentesque eu, pretium
+                quis, sem. Nulla consequat massa quis enim.
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <h2 class="text-white text-center">New Post</h2>
+        <section>
+          <div class="container">
+            <div class="carousel">
+              <input
+                type="radio"
+                name="slides"
+                checked="checked"
+                id="slide-1"
+              />
+              <input type="radio" name="slides" id="slide-2" />
+              <input type="radio" name="slides" id="slide-3" />
+              <input type="radio" name="slides" id="slide-4" />
+              <input type="radio" name="slides" id="slide-5" />
+              <input type="radio" name="slides" id="slide-6" />
+              <ul class="carousel__slides">
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img src="https://picsum.photos/id/1041/800/450" alt="" />
+                    </div>
+                    <figcaption>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      <span class="credit">Photo: Tim Marshall</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img src="https://picsum.photos/id/1043/800/450" alt="" />
+                    </div>
+                    <figcaption>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      <span class="credit">Photo: Christian Joudrey</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img src="https://picsum.photos/id/1044/800/450" alt="" />
+                    </div>
+                    <figcaption>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      <span class="credit">Photo: Steve Carter</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img src="https://picsum.photos/id/1045/800/450" alt="" />
+                    </div>
+                    <figcaption>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      <span class="credit">Photo: Aleksandra Boguslawska</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img src="https://picsum.photos/id/1049/800/450" alt="" />
+                    </div>
+                    <figcaption>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      <span class="credit">Photo: Rosan Harmens</span>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="carousel__slide">
+                  <figure>
+                    <div>
+                      <img src="https://picsum.photos/id/1052/800/450" alt="" />
+                    </div>
+                    <figcaption>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      <span class="credit">Photo: Annie Spratt</span>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+              <ul class="carousel__thumbnails">
+                <li>
+                  <label for="slide-1"
+                    ><img src="https://picsum.photos/id/1041/150/150" alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-2"
+                    ><img src="https://picsum.photos/id/1043/150/150" alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-3"
+                    ><img src="https://picsum.photos/id/1044/150/150" alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-4"
+                    ><img src="https://picsum.photos/id/1045/150/150" alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-5"
+                    ><img src="https://picsum.photos/id/1049/150/150" alt=""
+                  /></label>
+                </li>
+                <li>
+                  <label for="slide-6"
+                    ><img src="https://picsum.photos/id/1052/150/150" alt=""
+                  /></label>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- end slide -->
+        <div class="mo_ta container">
+          <h3 class="text-center text-white">NHÀ MÁY THEO CHUẨN GMP</h3>
+          <p class="text-center text-white mt-5">
+            Trang thiết bị nhà máy theo chuẩn GMP – GMP standard ngành mỹ phẩm
+            và thực phẩm. <br />
+            Nhà máy được phân chia thành các khu riêng biệt với những chức năng
+            khác nhau như khu vực lưu trữ nguyên liệu, khu vực chế biến, khu vực
+            đóng gói, khu bảo quản <br />
+            Đảm bảo vệ sinh sạch sẽ tại các khu vực tiếp xúc với sản phẩm, hệ
+            thống cấp thoát nước theo <br />đúng tiêu chuẩn quy định.
+            <br />
+            Quy trình chế biến được quản lí và giám sát nghiêm ngặt.
+          </p>
+        </div>
+        <div class="kol mt-5">
+          <h2 class="text-white text-center">KOLS</h2>
+          <hr />
+          <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="0"
+                class="active"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#demo"
+                data-bs-slide-to="2"
+              ></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner mt-5">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="./Src/Image/lengan.jpg" . alt="" width="70%" />
+                  </div>
+                  <div class="col-6">
+                    <h2>Lê Thị Thuỳ Ngân</h2>
+                    <hr style="color: red; width: 400px" />
+                    <p>
+                      ‘Dùng sản phẩm vô cùng chất lượng Ngân vô cùng yêu thích
+                      Mela. <br />
+                      Mỗi lần dùng vô cùng thoải mái cho da đặc biệt cho da nhạy
+                      cảm.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="./Src/Image/lengan.jpg" . alt="" width="70%" />
+                  </div>
+                  <div class="col-6">
+                    <h2>Lê Thị Thuỳ Ngân</h2>
+                    <hr style="color: red; width: 400px" />
+                    <p>
+                      ‘Dùng sản phẩm vô cùng chất lượng Ngân vô cùng yêu thích
+                      Mela. <br />
+                      Mỗi lần dùng vô cùng thoải mái cho da đặc biệt cho da nhạy
+                      cảm.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="./Src/Image/lengan.jpg" . alt="" width="70%" />
+                  </div>
+                  <div class="col-6">
+                    <h2>Lê Thị Thuỳ Ngân</h2>
+                    <hr style="color: red; width: 400px" />
+                    <p>
+                      ‘Dùng sản phẩm vô cùng chất lượng Ngân vô cùng yêu thích
+                      Mela. <br />
+                      Mỗi lần dùng vô cùng thoải mái cho da đặc biệt cho da nhạy
+                      cảm.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#demo"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+
+          <div class="container-fluid mt-3">
+            <h3>C- KOLS chia sẻ</h3>
+            <p>
+              The following example shows how to create a basic carousel with
+              indicators and controls.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end main-->
+      <!-- footer -->
+    </div>
+    <footer id="footer" class="bg-primary text-center text-lg-start text-white mt-5">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row my-4">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <div
+              class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto"
+              style="width: 150px; height: 150px"
+            >
+              <img
+                src="./Src/Image/lengan.jpg"
+                height="150"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+
+            <p class="text-center">
+              Homless animal shelter The budgetary unit of the Capital City of
+              Warsaw
+            </p>
+
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
+              <li>
+                <a class="text-white px-2" href="#!">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white px-2" href="#!">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a class="text-white ps-2" href="#!">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Animals</h5>
+
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>When your pet is missing</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Recently found</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>How to adopt?</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Pets for adoption</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Material gifts</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Help with walks</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Volunteer activities</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Animals</h5>
+
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>General information</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>About the shelter</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Statistic data</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Job</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Tenders</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-white"
+                  ><i class="fas fa-paw pe-3"></i>Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Contact</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <p>
+                  <i class="fas fa-map-marker-alt pe-2"></i>Warsaw, 57 Street,
+                  Poland
+                </p>
+              </li>
+              <li>
+                <p><i class="fas fa-phone pe-2"></i>+ 01 234 567 89</p>
+              </li>
+              <li>
+                <p>
+                  <i class="fas fa-envelope pe-2 mb-0"></i>contact@example.com
+                </p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a class="text-white">Xom Tro 51</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- mess -->
+    <div class="mess fixed-bottom d-flex justify-content-lg-start mb-3 mx-2">
+      <button class="btn btn-primary text-uppercase">
+        buy now
+
+        </lord-icon>
+      </button>
+    </div>
+  </body>
+</html>
