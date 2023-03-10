@@ -28,7 +28,9 @@ h1 {
   font-family: "Nunito";
   text-shadow: -20px -20px 7px #7e2c2c;
 }
-
+#marquee {
+  margin-top: 70px;
+}
 /* buy now */
 .button {
   margin: 0;
@@ -516,7 +518,7 @@ section {
 }
 
 .container .card:hover:before {
-  clip-path: circle(300px at 80% -20%);
+  clip-path: circle(200px at 80% -20%);
 }
 
 .container .card:after {
@@ -527,7 +529,7 @@ section {
   font-size: 12em;
   font-weight: 800;
   font-style: italic;
-  color: rgba(255, 255, 25, 0.05);
+  /* color: rgba(255, 255, 25, 0.05); */
 }
 
 .container .card .imgBx {
@@ -617,11 +619,11 @@ section {
   line-height: 26px;
   font-size: 14px;
   display: inline-block;
-  color: #111;
+  /* color: #111; */
   background: #fff;
   margin: 0 5px;
   transition: 0.5s;
-  color: #111;
+  /* color: #111; */
   border-radius: 4px;
   cursor: pointer;
 }
@@ -659,7 +661,7 @@ section {
   margin-top: 10px;
   text-decoration: none;
   font-weight: 600;
-  color: #111;
+  /* color: #111; */
   opacity: 0;
   transform: translateY(50px);
   transition: 0.5s;
@@ -671,8 +673,32 @@ section {
   transform: translateY(0px);
   transition-delay: 0.75s;
 }
+
 img {
+  max-width: 100%;
+  height: auto;
   border-radius: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  img {
+    max-width: 40%;
+  }
+  .card,
+  .button {
+    max-width: 40%;
+    max-he: 40%;
+  }
+}
+figcaption {
+  color: white;
 }
 #title_tin {
   font-size: 200%;
@@ -688,6 +714,4 @@ img {
   z-index: 20000;
   background-color: #ec7f7f;
 }
-img:hover {
-  scale: 1.05;
-}
+/*  */
